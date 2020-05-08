@@ -44,5 +44,11 @@ If the command `ssh-keygen` is not found, you need to install `ssh`, e.g. with `
 3. Type any title for your reference and paste your key (Cmd-V) into the Key window.
 4. Click the green button `Add SSH key` and done!
 
+#### Gitlab
+1. Go to your `SSH keys` settings: https://gitlab.com/profile/keys.
+2. Paste your key (Cmd-V) into the Key window.
+3. (Optional) Change "Title" and "Expires as" fields.
+4. Click the green button `Add key` and done!
+
 ### More detailed instructions
 - [Github: Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
