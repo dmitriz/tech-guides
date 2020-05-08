@@ -36,10 +36,13 @@ If the command `ssh-keygen` is not found, you need to install it, e.g. the `open
 
 
 ### Add your ssh key to your Github/Gitlab/Bitbucket account
+0. Copy your `ssh` key to clipboard (in terminal): `cat ~/.ssh/id_rsa.pub | pbcopy`
 
 #### Github
 1. Go to your `SSH and GPG keys` settings: https://github.com/settings/keys.
 2. Click on green button `New SSH key` at the top on the right.
+3. Type any title for your reference and paste your key (Cmd-V) into the Key window.
+4. Click the green button `Add SSH Key` and done!
 
 ### More detailed instructions
 - [Github](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
