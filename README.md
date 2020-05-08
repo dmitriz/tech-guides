@@ -32,7 +32,7 @@ The key fingerprint is:
 ...
 ```
 
-If the command `ssh-keygen` is not found, you need to install it, e.g. the `openssh` package with [MacPorts](https://ports.macports.org/port/openssh/summary) (my preference).
+If the command `ssh-keygen` is not found, you need to install `ssh`, e.g. with `openssh` package with [MacPorts](https://ports.macports.org/port/openssh/summary) (my preference).
 
 
 ### Add your ssh key to your Github/Gitlab/Bitbucket account
